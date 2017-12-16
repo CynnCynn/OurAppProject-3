@@ -288,7 +288,7 @@ public class MomentAdapter extends RecyclerView.Adapter<MomentAdapter.ViewHolder
                         }
                     }
                     holder.com_content.setText(comments);
-                } else {
+                } else if(!mom.getComments().isEmpty()){
                     int start = 0;
                     for (String m : mom.getComments()) {
                         if (start == 0) {

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
-    useLibrary 'org.apache.http.legacy'
+
     repositories {
         mavenCentral()
         maven { url 'https://maven.google.com' }
@@ -39,6 +39,7 @@ dependencies {
     compile 'cn.bmob.android:bmob-push:0.8'
     compile 'com.makeramen:roundedimageview:2.3.0'
     compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.facebook.fresco:fresco:1.5.0'
     compile 'com.android.support:design:26.0.0-alpha1'
     compile 'com.android.support:percent:26.0.0-alpha1'
@@ -53,8 +54,6 @@ dependencies {
     compile 'com.android.support.test.espresso:espresso-core:2.2.2'
     compile 'com.squareup.okhttp3:okhttp:3.9.1'
     compile 'com.google.code.gson:gson:2.8.2'
-
-
     compile 'com.coldmoqiuli:banners:1.0.0'
 
 }

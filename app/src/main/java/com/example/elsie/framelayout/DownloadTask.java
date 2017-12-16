@@ -145,8 +145,8 @@ public class DownloadTask extends AsyncTask<String,Integer,Integer> {
                 .build();
         Response response=client.newCall(request).execute();
         if(response!=null&&response.isSuccessful()){
-            long contentLength=response.body().contentLength();
-            response.close();
+            long contentLength = response.body().contentLength();
+//            response.close();
             return contentLength;
         }
         return 0;
