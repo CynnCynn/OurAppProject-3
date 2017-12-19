@@ -16,13 +16,13 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="140dp"
             android:background="@null">
 
             <ImageView
                 android:id="@+id/dish_imageView"
                 android:layout_width="match_parent"
-                android:layout_height="130dp"
+                android:layout_height="140dp"
                 android:contentDescription="图片"
                 android:scaleType="centerCrop" />
 
@@ -40,7 +40,8 @@
                 android:lines="1"
                 android:paddingTop="4dp"
                 android:text="2366 人推荐"
-                android:textColor="@color/red"
+                android:textColor="@color/white"
+                android:textStyle="bold"
                 android:textSize="14sp" />
 
             <LinearLayout

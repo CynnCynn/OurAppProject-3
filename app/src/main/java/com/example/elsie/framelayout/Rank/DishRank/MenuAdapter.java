@@ -1,5 +1,6 @@
 package com.example.elsie.framelayout.Rank.DishRank;
 
+import android.content.res.Resources;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,6 +22,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+import static org.litepal.LitePalApplication.getContext;
+
 /**
  * Created by Elsie on 2017/12/3.
  */
@@ -30,6 +33,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 //    建立一个数据源
     private List<Product> DishList;
 
+    private Resources resource = getContext().getResources();
 
 //    默认构造函数
     public MenuAdapter(List<Product> dishList) {
@@ -59,8 +63,20 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         holder.dishPrice.setText("￥"+(int) dish.getFoodPrice());
         holder.dishName.setText(dish.getFoodName());
         holder.dishCommend.setText(dish.getSalesCount()+"人推荐");
-//        holder.dishImageView.setImageResource(dish.getImageUrl());
-        holder.dishImageView.setImageResource(R.drawable.dish);
+        if(dish.getType().equals("一楼"))
+            holder.dishImageView.setImageResource(R.mipmap.tomato);
+        if(dish.getType().equals("二楼"))
+            holder.dishImageView.setImageResource(R.mipmap.bean);
+        if(dish.getType().equals("三楼"))
+            holder.dishImageView.setImageResource(R.mipmap.qz);
+        if(dish.getType().equals("清真"))
+            holder.dishImageView.setImageResource(R.mipmap.sheet);
+        if(dish.getType().equals("红楼"))
+            holder.dishImageView.setImageResource(R.mipmap.tofu);
+        //        根据图片名字获得对应的图片id，加载的有点慢
+//        int resID = getContext().getResources().getIdentifier(dish.getImageUrl(), "mipmap","com.example.elsie.framelayout");
+//        holder.dishImageView.setImageResource(resID);
+//        holder.dishImageView.setImageResource(R.drawable.dish);
 
         holder.likeDish.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -152,6 +168,11 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
 
     }
+
+//    public int getResource(String imageName){
+//        Context ctx=getContext();
+//int resId = getResources().getIdentifier(imageName, "drawable" , ctx.getPackageName());
+//        return resId; }
 
     @Override
     public int getItemCount() {

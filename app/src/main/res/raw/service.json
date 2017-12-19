@@ -1,55 +1,56 @@
-{  "results":[
+{  "results":
+[
   {
     "_id":1,
     "title":"一楼",
     "workerList":[
       {
         "workerID":101,
-        "workerName":"黃阿姨",
+        "workerName":"黃**1",
         "window":1,
         "score":101,
         "workerImg":"1"
       },
       {
         "workerID":102,
-        "workerName":"黃阿姨",
-        "window":1,
-        "score":101,
+        "workerName":"黃**2",
+        "window":2,
+        "score":51,
         "workerImg":"1"
       },
       {
         "workerID":103,
-        "workerName":"黃阿姨",
-        "window":1,
+        "workerName":"黃**3",
+        "window":3,
         "score":103,
         "workerImg":"1"
       },
       {
         "workerID":104,
-        "workerName":"黃阿姨",
-        "window":1,
-        "score":101,
+        "workerName":"黃**4",
+        "window":4,
+        "score":121,
         "workerImg":"1"
       },
       {
         "workerID":105,
-        "workerName":"黃阿姨",
-        "window":1,
-        "score":101,
+        "workerName":"黃**5",
+        "window":5,
+        "score":81,
         "workerImg":"1"
       },
       {
         "workerID":106,
-        "workerName":"黃阿姨",
-        "window":1,
-        "score":101,
+        "workerName":"黃**6",
+        "window":6,
+        "score":71,
         "workerImg":"1"
       },
       {
         "workerID":107,
-        "workerName":"黃阿姨",
-        "window":1,
-        "score":101,
+        "workerName":"黃**7",
+        "window":7,
+        "score":11,
         "workerImg":"1"
       }
     ],
@@ -62,33 +63,33 @@
     "workerList":[
       {
         "workerID":201,
-        "workerName":"水煮肉片201",
-        "window":101,
-        "score":101,
+        "workerName":"叶**201",
+        "window":1,
+        "score":111,
         "workerImg":101
       }, {
         "workerID":202,
-        "workerName":"水煮肉片202",
-        "window":101,
-        "score":101,
+        "workerName":"叶**202",
+        "window":2,
+        "score":51,
         "workerImg":101
       }, {
         "workerID":203,
-        "workerName":"水煮肉片203",
-        "window":101,
-        "score":101,
+        "workerName":"叶**203",
+        "window":3,
+        "score":131,
         "workerImg":101
       }, {
         "workerID":204,
-        "workerName":"水煮肉片204",
-        "window":101,
-        "score":101,
+        "workerName":"叶**204",
+        "window":4,
+        "score":161,
         "workerImg":101
       }, {
         "workerID":205,
-        "workerName":"水煮肉片205",
-        "window":101,
-        "score":101,
+        "workerName":"叶**205",
+        "window":5,
+        "score":91,
         "workerImg":101
       }
     ],
@@ -101,38 +102,38 @@
     "workerList":[
       {
         "workerID":301,
-        "workerName":"海南香蕉301",
-        "window":101,
+        "workerName":"沈**301",
+        "window":1,
         "score":101,
         "workerImg":101
       },{
         "workerID":302,
-        "workerName":"海南香蕉302",
-        "window":101,
-        "score":101,
+        "workerName":"沈**302",
+        "window":2,
+        "score":81,
         "workerImg":101
       },{
         "workerID":303,
-        "workerName":"海南香蕉303",
-        "window":101,
-        "score":101,
+        "workerName":"沈**303",
+        "window":3,
+        "score":66,
         "workerImg":101
       },{
         "workerID":304,
-        "workerName":"海南香蕉304",
-        "window":101,
-        "score":101,
+        "workerName":"沈**304",
+        "window":4,
+        "score":86,
         "workerImg":101
       },{
         "workerID":305,
-        "workerName":"海南香蕉305",
-        "window":101,
+        "workerName":"沈**305",
+        "window":5,
         "score":101,
         "workerImg":101
       },{
         "workerID":306,
-        "workerName":"海南香蕉306",
-        "window":101,
+        "workerName":"沈**306",
+        "window":6,
         "score":101,
         "workerImg":101
       }
@@ -146,27 +147,27 @@
     "workerList":[
       {
         "workerID":"401",
-        "workerName":"羊肉串401",
-        "window":101,
+        "workerName":"陈**401",
+        "window":1,
         "score":101,
         "workerImg":101
       }, {
         "workerID":"402",
-        "workerName":"羊肉串402",
-        "window":101,
-        "score":101,
+        "workerName":"陈**402",
+        "window":2,
+        "score":99,
         "workerImg":101
       }, {
         "workerID":"403",
-        "workerName":"羊肉串403",
-        "window":101,
-        "score":101,
+        "workerName":"陈**403",
+        "window":3,
+        "score":81,
         "workerImg":101
       }, {
         "workerID":"404",
-        "workerName":"羊肉串404",
-        "window":101,
-        "score":101,
+        "workerName":"陈**404",
+        "window":4,
+        "score":77,
         "workerImg":101
       }
     ],
@@ -179,39 +180,27 @@
     "workerList":[
       {
         "workerID":501,
-        "workerName":"清蒸鱼501",
-        "window":101,
+        "workerName":"杨**501",
+        "window":1,
         "score":101,
         "workerImg":101
       },{
         "workerID":502,
-        "workerName":"清蒸鱼502",
-        "window":101,
-        "score":101,
+        "workerName":"杨**502",
+        "window":2,
+        "score":91,
         "workerImg":101
       },{
         "workerID":503,
-        "workerName":"清蒸鱼503",
-        "window":101,
-        "score":101,
+        "workerName":"杨**503",
+        "window":3,
+        "score":61,
         "workerImg":101
       },{
         "workerID":504,
-        "workerName":"清蒸鱼504",
-        "window":101,
-        "score":101,
-        "workerImg":101
-      },{
-        "workerID":505,
-        "workerName":"清蒸鱼505",
-        "window":101,
-        "score":101,
-        "workerImg":101
-      },{
-        "workerID":506,
-        "workerName":"清蒸鱼506",
-        "window":101,
-        "score":101,
+        "workerName":"杨**504",
+        "window":4,
+        "score":151,
         "workerImg":101
       }
     ],

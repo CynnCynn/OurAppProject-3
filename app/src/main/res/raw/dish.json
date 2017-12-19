@@ -6,50 +6,50 @@
       "foodList":[
         {
           "ID":101,
-          "foodName":"番茄炒蛋",
+          "foodName":"番茄炒蛋1",
           "foodPrice":2.50,
           "salesCount":101,
-          "imageUrl":"R.mipmap.tomato"
+          "imageUrl":"tomato"
         },
         {
           "ID":102,
-          "foodName":"手撕鸡102",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋2",
+          "foodPrice":2.5,
           "salesCount":101,
-          "imageUrl":"R.mipmap.tomato"
+          "imageUrl":"tomato"
         },
         {
           "ID":103,
-          "foodName":"手撕鸡103",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋3",
+          "foodPrice":2.5,
           "salesCount":103,
           "imageUrl":"R.mipmap.tomato"
         },
         {
           "ID":104,
-          "foodName":"手撕鸡104",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋4",
+          "foodPrice":2.5,
           "salesCount":101,
           "imageUrl":"R.mipmap.tomato"
         },
         {
           "ID":105,
-          "foodName":"手撕鸡105",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋5",
+          "foodPrice":2.5,
           "salesCount":101,
           "imageUrl":"R.mipmap.tomato"
         },
         {
           "ID":106,
-          "foodName":"手撕鸡106",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋6",
+          "foodPrice":2.5,
           "salesCount":101,
           "imageUrl":"R.mipmap.tomato"
         },
         {
           "ID":107,
-          "foodName":"手撕鸡107",
-          "foodPrice":22.5,
+          "foodName":"番茄炒蛋7",
+          "foodPrice":2.5,
           "salesCount":101,
           "imageUrl":"R.mipmap.tomato"
         }
@@ -63,32 +63,32 @@
       "foodList":[
         {
           "ID":201,
-          "foodName":"水煮肉片201",
-          "foodPrice":101,
+          "foodName":"豆角炒肉片201",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":202,
-          "foodName":"水煮肉片202",
-          "foodPrice":101,
+          "foodName":"豆角炒肉片202",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":203,
-          "foodName":"水煮肉片203",
-          "foodPrice":101,
+          "foodName":"豆角炒肉片203",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":204,
-          "foodName":"水煮肉片204",
-          "foodPrice":101,
+          "foodName":"豆角炒肉片204",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":205,
-          "foodName":"水煮肉片205",
-          "foodPrice":101,
+          "foodName":"豆角炒肉片205",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }
@@ -102,38 +102,38 @@
       "foodList":[
         {
           "ID":301,
-          "foodName":"海南香蕉301",
-          "foodPrice":101,
+          "foodName":"红烧茄子301",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":302,
-          "foodName":"海南香蕉302",
-          "foodPrice":101,
+          "foodName":"红烧茄子302",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":303,
-          "foodName":"海南香蕉303",
-          "foodPrice":101,
+          "foodName":"红烧茄子303",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":304,
-          "foodName":"海南香蕉304",
-          "foodPrice":101,
+          "foodName":"红烧茄子304",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":305,
-          "foodName":"海南香蕉305",
-          "foodPrice":101,
+          "foodName":"红烧茄子305",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":306,
-          "foodName":"海南香蕉306",
-          "foodPrice":101,
+          "foodName":"红烧茄子306",
+          "foodPrice":3.0,
           "salesCount":101,
           "imageUrl":101
         }
@@ -148,25 +148,25 @@
         {
           "ID":"401",
           "foodName":"羊肉串401",
-          "foodPrice":101,
+          "foodPrice":4.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":"402",
           "foodName":"羊肉串402",
-          "foodPrice":101,
+          "foodPrice":4.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":"403",
           "foodName":"羊肉串403",
-          "foodPrice":101,
+          "foodPrice":4.0,
           "salesCount":101,
           "imageUrl":101
         }, {
           "ID":"404",
           "foodName":"羊肉串404",
-          "foodPrice":101,
+          "foodPrice":4.0,
           "salesCount":101,
           "imageUrl":101
         }
@@ -180,38 +180,38 @@
       "foodList":[
         {
           "ID":501,
-          "foodName":"清蒸鱼501",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋501",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":502,
-          "foodName":"清蒸鱼502",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋502",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":503,
-          "foodName":"清蒸鱼503",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋503",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":504,
-          "foodName":"清蒸鱼504",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋504",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":505,
-          "foodName":"清蒸鱼505",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋505",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         },{
           "ID":506,
-          "foodName":"清蒸鱼506",
-          "foodPrice":101,
+          "foodName":"鱼片蒸水蛋506",
+          "foodPrice":4.5,
           "salesCount":101,
           "imageUrl":101
         }

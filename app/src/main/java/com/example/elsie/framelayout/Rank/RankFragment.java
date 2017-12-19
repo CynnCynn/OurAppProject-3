@@ -153,7 +153,7 @@ public class RankFragment extends android.support.v4.app.Fragment implements OnC
 
                     case 3:
                         Toast.makeText(getContext(),"清真",Toast.LENGTH_LONG).show();
-                        mFloor.setBackgroundResource(R.drawable.graychat);
+                        mFloor.setBackgroundResource(R.drawable.sort);
                         mWhichFloor.setText("清真");
                         mWhichFloor.setVisibility(View.VISIBLE);
                         mDrawerLayout.closeDrawer(Gravity.LEFT);
@@ -165,7 +165,7 @@ public class RankFragment extends android.support.v4.app.Fragment implements OnC
 
                     case 4:
                         Toast.makeText(getContext(),"红楼",Toast.LENGTH_LONG).show();
-                        mFloor.setBackgroundResource(R.drawable.graychat);
+                        mFloor.setBackgroundResource(R.drawable.sort);
                         mWhichFloor.setText("红楼");
                         mWhichFloor.setVisibility(View.VISIBLE);
                         mDrawerLayout.closeDrawer(Gravity.LEFT);
